@@ -1,5 +1,7 @@
 package API;
 
+import java.util.Objects;
+
 public class student {
     private String name;
     private  int age;
@@ -21,5 +23,20 @@ public class student {
                 ", age=" + age +
                 ", score=" + score +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        student student = (student) o;
+        return age == student.age &&
+                score == student.score &&
+                name.equals(student.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, age, score);
     }
 }

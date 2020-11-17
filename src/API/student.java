@@ -16,7 +16,7 @@ public class student {
         this.score = score;
     }
 
-    @Override                               //快速重新方法，右键Generate→选方法
+    @Override                               //快速重写方法，右键Generate→选方法
     public String toString() {
         return "student{" +
                 "name='" + name + '\'' +

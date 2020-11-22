@@ -44,7 +44,7 @@ public class 迭代器 {
             String s=(String)c.next();
             if ("12".equals(s))
             {
-                c.add("12.5");
+                c.add("12.5");                      //列表迭代器在遍历的同时可以修改添加值，必须用列表迭代器的方法
             }
         }
         System.out.println(a);

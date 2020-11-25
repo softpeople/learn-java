@@ -31,6 +31,7 @@ public class Set集合的特点 {
 
 
         //通过迭代器遍历set集合
-        a.iterator();
+        Iterator<student> iterator = a.iterator();
+
     }
 }

@@ -26,7 +26,7 @@ public class 异常处理 {
         try {
             //尝试要执行的代码
             int a=10/0;
-            System.out.println(a);
+            System.out.println(a);      //出错了直接跳转catch，不会执行后面的代码
         } catch (Exception e) {
             //出现问题后的解决方案
             System.out.println("除数为0了");

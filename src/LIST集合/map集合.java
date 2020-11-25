@@ -54,6 +54,6 @@ public class map集合 {
         {
             System.out.println("key:"+a+"    value:  "+map.get(a));
         }
-       
+
     }
 }

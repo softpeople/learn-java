@@ -20,7 +20,7 @@ public class Collections工具类 {
         a.add("10");
         a.add("15");
         a.add("17");
-        a.add("1");
+        a.add("IO流");
         System.out.println("操作前的集合"+a);
         System.out.println("集合中的最大元素"+Collections.max(a));
         Collections.sort(a);

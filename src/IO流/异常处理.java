@@ -29,7 +29,12 @@ public class 异常处理 {
             System.out.println(a);
         } catch (Exception e) {
             //出现问题后的解决方案
-            e.printStackTrace();
+            System.out.println("除数为0了");
+            return;
         }
+        finally {
+            System.out.println("总会执行的代码，防止catch中的return");
+        }
+        System.out.println("我执行了吗");        //因为catch中加了return所以方法结束了，所以不执行
     }
 }

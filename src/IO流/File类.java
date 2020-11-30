@@ -36,13 +36,19 @@ public class File类 {
 
 
         //在D:/yb下创建一个2.txt
-        File f=new File("v2.txt");
+        File f=new File("2.txt");
         boolean tof=f.createNewFile();                          //直接f.createNewFile(); 会报错java.io.IOException，
         System.out.println(tof);                                // 必须对其进行捕获或声明以便抛出
                                                                 //解决方法：1.TryCatch  2.throw
-        //在D:/yb下创建一个a文件夹
+        //在D:/yb下创建一个a文件夹（多及目录使用mkdirs创建）
         File g=new File("D:/yb/a");
         tof=g.mkdir();
         System.out.println(tof);
+        System.out.println("---------------------------------华丽的分割线");
+        System.out.println("测试判断");
+        File h=new File("D:/yb/a");
+        System.out.println("判断h是不是文件夹"+h.isDirectory());
+        System.out.println("判断h是不是文件"+h.isFile());
+        System.out.println("判断h是否存在"+h.exists());
     }
 }

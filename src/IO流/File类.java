@@ -8,7 +8,7 @@ import java.io.File;
     File(String parent,String child)
     File(File parent,String child)
 成员方法:
-   创建功能：
+   创建功能：（存在就不创建返回false，不存在就创建返回true）
     createNewFile():创建文件
     mkdir()和mkdirs():创建目录
    判断功能：
@@ -36,9 +36,13 @@ public class File类 {
 
 
         //在D:/yb下创建一个2.txt
-        File f=new File("D:/yb/2.txt");
+        File f=new File("v2.txt");
         boolean tof=f.createNewFile();                          //直接f.createNewFile(); 会报错java.io.IOException，
         System.out.println(tof);                                // 必须对其进行捕获或声明以便抛出
                                                                 //解决方法：1.TryCatch  2.throw
+        //在D:/yb下创建一个a文件夹
+        File g=new File("D:/yb/a");
+        tof=g.mkdir();
+        System.out.println(tof);
     }
 }

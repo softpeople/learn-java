@@ -5,6 +5,5 @@ public class 随机数 {
         Random a=new Random();
         int num=a.nextInt(100); //取0到99，包含0，包含99
         System.out.println(num);        //输出快捷键sout
-
     }
 }

@@ -21,4 +21,5 @@ public class 加强for遍历 {
             System.out.println(o);
         }
     }
+
 }

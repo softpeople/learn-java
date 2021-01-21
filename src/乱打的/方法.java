@@ -1,3 +1,5 @@
+package 乱打的;
+
 import java.util.Scanner;
 /* //修饰符 返回值类型 方法名（参数类型 参数1，参数类型 参数2。。。。）
    {

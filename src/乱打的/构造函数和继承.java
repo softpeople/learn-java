@@ -1,3 +1,5 @@
+package 乱打的;
+
 class cat{
     String sound="喵喵喵？";
     String c;

@@ -4,7 +4,7 @@ package IO流;
         抛出异常交给调用者处理
  */
 public class 抛出异常 {
-    public static void show(){      //不用静态就会报错：无法从静态上下文中引用非静态 方法
+    public static void show(){      //不用静态就会报错：无法从静态上下文中引用非静态 乱打的.方法
         System.out.println(10/0);
     }
     public static void main(String[] args) throws Exception{   //使用抛出异常会终止程序

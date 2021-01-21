@@ -1,7 +1,7 @@
 package 反射;
 /*
 获取class对象(字节码对象文件)的三种方式
-    1.Object类的getClass()方法
+    1.Object类的getClass()乱打的.方法
         Class cls= 对象名.getClass();
     2.类的静态属性
         Class cls= 类名.class();

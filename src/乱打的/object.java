@@ -1,3 +1,5 @@
+package 乱打的;
+
 class dog{
     String food="骨头";
     void eat(){

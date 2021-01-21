@@ -1,3 +1,5 @@
+package 乱打的;
+
 import java.lang.module.FindException;
 import java.util.InputMismatchException;
 import java.util.Scanner;

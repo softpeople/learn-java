@@ -1,3 +1,5 @@
+package 乱打的;
+
 public class 数组 {
     public static void main(String[] args) {
         int[] shuzu1=new int[5];          //定义方法1:数据类型[] 数组名=new 数据类型[长度];

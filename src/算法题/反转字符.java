@@ -1,7 +1,6 @@
 package 算法题;
 
 import java.util.Random;
-
 /*
 给你一个 32 位的有符号整数 x ，返回 x 中每位上的数字反转后的结果。
 
@@ -38,7 +37,7 @@ import java.util.Random;
 class Solution {
     public int reverse(int x) {
 
-        return 0;
+        return (x+"").length();
     }
 }
 public class 反转字符 {
@@ -47,6 +46,7 @@ public class 反转字符 {
         Random rdm=new Random();
         int stra=rdm.nextInt();
         System.out.println(stra);
-        
+        int strb=a.reverse(stra);
+        System.out.println(strb);
     }
 }
